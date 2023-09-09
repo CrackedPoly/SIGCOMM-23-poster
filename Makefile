@@ -6,4 +6,4 @@ mon:
 	latexmk -pvc -xelatex Poster.tex
 
 cln:
-	latexmk -c
+	latexmk -C

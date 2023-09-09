@@ -113,7 +113,7 @@
 %Section 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{columns}[t]
-  \begin{column}{0.53\paperwidth}
+  \begin{column}{0.49\paperwidth}
     \begin{block}{\Large{\textbf{Abstract}}}
       \large
       Atomic predicate is a key enabler for data plane verification, usually with
@@ -165,7 +165,7 @@
     \vspace{1cm}
       \begin{figure}
       \centering
-      \includegraphics[width=0.8\textwidth]{figures/space-partition.pdf}
+      \includegraphics[width=0.7\textwidth]{figures/headerspace-split.pdf}
       \caption{How small changes lead to significant impacts.}
       \end{figure}
     \vspace{-1cm}
@@ -176,8 +176,8 @@
   The scalability of DPV systems is restricted by the scalability of BDD operations for two reasons: 
 
   \begin{enumerate}
-    \item BDD operations contribute to the \efsz{majority of verification time}. Previous work 
-    Flash have shown that BDD operations can account for the majority of the verification time 
+    \item Previous work Flash have shown that BDD operations can account for 
+    \efsz{the majority of the verification time}
     (i.e., the number of BDD operations reaches the order of $O(10^9)$ and 
     takes over 99\% of the overall time).
 
